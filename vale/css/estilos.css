@@ -1,0 +1,198 @@
+.body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f5f2;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #8e44ad;
+}
+
+.navbar-brand, .nav-link, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+/* SLIDER */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.carousel-caption h5 {
+  color:  #000;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/* CARDS DE PRODUCTOS */
+.card {
+  border-radius: 20px;
+  overflow: hidden; /* importante para que la imagen también respete el borde */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #6c3483;
+  
+}
+
+.card-text {
+  font-size: 20px;
+  color: #555;
+  font-family: Arial, Helvetica, sans-serif; /* o podés usar una fuente base como Arial */
+  font-weight: bold;
+  color: #000; /* o el color que desees */
+
+}
+
+/* BOTONES */
+.btn-primary {
+  background-color: #a569bd;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #884ea0;
+}
+
+.btn-danger {
+  background-color: #e74c3c;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #c0392b;
+}
+
+.btn-success {
+  background-color: #27ae60;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #1e8449;
+}
+
+.btn-outline-secondary {
+  border-color: #8e44ad;
+  color: #8e44ad;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #8e44ad;
+  color: #fff;
+}
+
+/* FOOTER */
+footer {
+  background-color: #8e44ad;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* TITULOS GENERALES */
+h1, h2, h3 {
+  color: #6c3483;
+}
+
+.text-purple {
+  color: #8e44ad !important;
+}
+
+.btn-purple {
+  background-color: #a569bd;
+  color: #fff;
+  border: none;
+}
+
+.btn-purple:hover {
+  background-color: #884ea0;
+  color: #fff;
+}
+
+.card-img-top {
+  height: 350px; /* o el alto que prefieras */
+  object-fit: cover; /* o 'contain' según el efecto que quieras */
+}
+
+.carousel {
+  margin: 0 auto;     /* para centrar */
+  border-radius: 20px;
+  overflow: hidden;   /* importante para que los bordes redondos se apliquen a las imágenes */
+}
+
+.carousel img {
+  border-radius: 0; /* anulamos bordes en img si queremos redondear solo el contenedor */
+}
+.card {
+  border: none;
+}
+body {
+  font-family: 'Lato', sans-serif;
+}
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+.navbar, .navbar-brand, .nav-link {
+  font-family: 'Playfair Display', serif !important;
+}
+.titulo-seccion {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 40px 0 20px;
+  border-bottom: 2px solid #ccc;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+.card, 
+.card-title, 
+.card-text, 
+.card-body, 
+.card-footer {
+  font-family: 'Playfair Display', serif !important;
+}
+body, h1, h2, h3, h4, h5, h6,p, a, li, nav, .navbar, .card, .card-body, .card-title {
+  font-family: 'Playfair Display', serif;
+}
+body {
+  color: #333333;
+  background-color: #fafafa;
+}
+
+.card-body{
+    font-size: 20px;
+}
+.text-white{
+  font-size: 28px; /* Ajustá el tamaño a gusto */
+  margin: 0 10px;   /* Espacio entre íconos */
+}
+.text-white{
+    font-size: 15px;
+}
